@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- STYLESHEET -->
         <link rel="stylesheet" href="style.css" />
 
         <meta charset="UTF-8" />
@@ -10,8 +9,24 @@
         <title>FORM VALIDATION</title>
     </head>
     <body>
-        https://github.com/Makktu/form-validation.git
-        <form></form>
+        <div class="container">
+            <div class="form1">
+                <form action="validation()">
+                    <label for="email-addr">Email Address: </label>
+                    <input type="email" />
+                    <label for="country">Country: </label>
+                    <input type="text" />
+                    <label for="postcode">Zip/Post Code: </label>
+                    <input type="text" />
+                    <label for="password1">Enter Password: </label>
+                    <input type="password" />
+                    <label for="password2">Confirm Password: </label>
+                    <input type="password" />
+                    <input id="submit" type="submit" value="Submit" />
+                    <input id="cancel" type="submit" value="Cancel" />
+                </form>
+            </div>
+        </div>
 
         <script src="script.js"></script>
     </body>
